@@ -2,7 +2,7 @@
 # Time Succes decompile : 2023-02-07 00:26:14.084668
 from os import path
 import os,base64,zlib,pip,urllib
-os.system('xdg-open http://wa.me/+93731498976')
+os.system('xdg-open http://wa.me/+93707266012')
 print('\n\033[1;37m install modules...\n It will take some seconds...')
 import uuid
 import os,sys,time,json,random,re,string,platform,base64
@@ -179,7 +179,7 @@ def riaz():
 	if riaz1 =='5':
 		riaz()
 	if riaz1 =='4':
-		os.system('xdg-open http://wa.me/+93731498976text=SN.JAN💜🐰Sir😪💕')
+		os.system('xdg-open http://wa.me/+93707266012text=JOKER.JAN💜🐰Sir😪💕')
 	if riaz1 =='3':
 		os.system('xdg-openhttps://www.facebook.com/Afg.Hacker.Ghani.Khan');riaz()
 	if riaz1 =='2':
