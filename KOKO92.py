@@ -13,7 +13,7 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python2 KOKO92.py')
+	os.system('python KOKO92.py')
 	
 print('[•] JOIN FACEBOOK GROUP')
 os.system('xdg-open https://www.facebook.com/duliako')
@@ -301,7 +301,7 @@ def menu():
 				print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 				linex()
 				input(' Press enter to back ')
-				os.system('python2 KOKO92.py')
+				os.system('python KOKO92.py')
 			elif xd in ['2','02']:
 				pak()
 			elif xd in ['3','03']:
@@ -377,7 +377,7 @@ def pak():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python2 KOKO92.py')
+		os.system('python KOKO92.py')
 
 def gmail():
 		os.system('rm -rf .re.txt')
@@ -454,7 +454,7 @@ def gmail():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python2 KOKO92.py')
+		os.system('python KOKO92.py')
 #b-api method
 #1method
 def api1(ids,names,passlist):
