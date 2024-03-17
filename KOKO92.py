@@ -145,7 +145,7 @@ device = {
         'fbsv':fbsv,    
         'fbca':fbca,
         'fbdm':fbdm}
-logo = """\033[1;92m                                               
+logo=("""\033[1;94m                                               
 \033[1;39m======================================================
 \033[1;31m    ____   ____   ___    __ __________ ________    
 \033[1;31m    `MM'  6MMMMb  `MM    d'  `MMMMMMMMM `MMMMMMMb.  
@@ -185,9 +185,9 @@ def menu():
         #       chk()
                 x = ("sex")
                 if x == ("sex"):
-                        print(' [1] File Cloning')
-                        print(' [2] Random Cloning')                        
-                        print(' [0] EXIT')
+                        print(' [1] 𝐅𝐈𝐋𝐄 𝐂𝐋𝐎𝐍𝐈𝐍𝐆')
+                        print(' [2] 𝐑𝐀𝐍𝐃𝐎𝐌 𝐂𝐋𝐎𝐍𝐈𝐍𝐆')                        
+                        print(' [0] 𝐄𝐗𝐈𝐓')
                         linex()
                         xd=input(' [~] Put Any option : ')                        
                         if xd in ['1','01']:
@@ -658,4 +658,3 @@ except requests.exceptions.ConnectionError:
         print('\n No internet connection ...')
         exit()
 menu()
-
