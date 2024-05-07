@@ -71,7 +71,7 @@ Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, l
 """
 
 ua=[]
-logo = """
+logo = """)
 \033[1;39m======================================================
 \033[1;31m    ____   ____   ___    __ __________ ________    
 \033[1;31m    `MM'  6MMMMb  `MM    d'  `MMMMMMMMM `MMMMMMMb.  
