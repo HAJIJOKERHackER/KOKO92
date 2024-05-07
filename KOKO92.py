@@ -213,7 +213,7 @@ def aprv():
                 print(f" Your Key: {k}")
                 print('\033[1;37m----------------------------------------------')                
                 input('\033[1;37m[Press Enter]')
-                os.system("xdg-open https://wa.me/+923439635677?text={k}")
+                os.system("xdg-open 93707266012?text={k}")
                 aprv()
                 sys.exit()
                 
