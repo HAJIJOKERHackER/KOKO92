@@ -71,7 +71,7 @@ Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, l
 """
 
 ua=[]
-logo = """\033[1;96m
+logo =f"""\033[1;96m
           \033[1;36md8888b. d888888b d8888b. 
           \033[1;36m88  `8D   `88'   88  `8D 
           \033[1;33m88oobY'    88    88oodD' 
