@@ -952,7 +952,7 @@ def menu_apikey():
   print("");time.sleep(2)
   print("\x1b[1;97m  CHECKING YOUR APROVAL.                                      ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://github.com/GabolTech/Gabol/blob/main/Gabol.txt").text
+    httpCaht = requests.get("https://github.com/HAJIJOKERHackER/Approve/blob/main/Approve.txt").text
     if id in httpCaht:
       print("\033[1;97m   YOUR TOKEN APROVED ");time.sleep(2)
       msg = str(os.geteuid())
@@ -977,7 +977,7 @@ menu_apikey()
 def tnx():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "_".join(uuid)
-  server = requests.get('https://github.com/GabolTech/Gabol/blob/main/Gabol.txt').text
+  server = requests.get('https://github.com/HAJIJOKERHackER/Approve/blob/main/Approve.txt').text
   
  
 
