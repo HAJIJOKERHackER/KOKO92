@@ -88,7 +88,7 @@ logo = """
 \033[1;32m  •   \033[1;33mCREATED BY\33[0;m   :  \033[1;32mMANI
 \033[1;32m  •   \033[1;32mFACEBOK      : \033[1;34m Usman Rajpoot
 \033[1;32m  •   \033[1;35mGITHUB       :  \033[1;35mUSMAN-RAJPOOT
-\033[1;32m  •   \033[1;36mTOOL VIRSION :  \033[1;36m0.8
+\033[1;32m  •   \033[1;36mTOOL VIRSION :  \033[1;36m2.8
 \033[1;39m======================================================\n"""
 def clear ():
 	os.system('clear')
