@@ -72,25 +72,29 @@ Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, l
 
 ua=[]
 logo = """
-\033[97;1m   ##     ##    ###    ##    ## #### 
-\033[96;1m   ###   ###   ## ##   ###   ##  ##  
-\033[93;1m   #### ####  ##   ##  ####  ##  ##  
-\033[94;1m   ## ### ## ##     ## ## ## ##  ##  
-\033[97;1m   ##     ## ######### ##  ####  ## 
-\033[91;1m   ##     ## ##     ## ##   ###  ##  
-\033[92;1m   ##     ## ##     ## ##    ## #### 
-                                                               
-\033[1;37m═════════════
+\033[1;39m======================================================
+\033[1;31m    ____   ____   ___    __ __________ ________    
+\033[1;31m    `MM'  6MMMMb  `MM    d'  `MMMMMMMMM `MMMMMMMb.  
+\033[1;39m      MM  8P    Y8  MM   d'   MM      \  MM    `Mb  
+\033[1;39m      MM 6M      Mb MM  d'    MM         MM     MM  
+\033[1;39m      MM MM      MM MM d'     MM    ,    MM     MM  
+\033[1;39m      MM MM      MM MMd'      MMMMMMM    MM    .M9  
+\033[1;39m      MM MM      MM MMYM.     MM    `    MMMMMMM9'  
+\033[1;39m      MM MM      MM MM YM.    MM         MM  \M\    
+\033[1;39m(8)   MM YM      M9 MM  YM.   MM         MM   \M\   
+\033[1;31m((   ,M9  8b    d8  MM   YM.  MM      /  MM    \M\  
+\033[1;31m YMMMM9    YMMMM9  _MM_   YM._MMMMMMMMM _MM_    \M\_ 
+\033[1;39m======================================================
 \033[1;32m  •   \033[1;33mCREATED BY\33[0;m   :  \033[1;32mMANI
 \033[1;32m  •   \033[1;32mFACEBOK      : \033[1;34m Usman Rajpoot
 \033[1;32m  •   \033[1;35mGITHUB       :  \033[1;35mUSMAN-RAJPOOT
 \033[1;32m  •   \033[1;36mTOOL VIRSION :  \033[1;36m0.8
-\033[1;37m═════════════\n"""
+\033[1;39m======================================================\n"""
 def clear ():
 	os.system('clear')
 	print (logo)
 def linex():
-	print('\033[1;37m)═══════════')
+	print('\033[1;39m======================================================')
 def Main():
 	clear()
 	print("\033[1;32m[1] \033[1;37mFILE CLONING")
@@ -153,7 +157,7 @@ def method():
     
     print(f'\033[1;32m(√) Total IDs : \033[1;32m'+str(len(accounts)))
     
-    print(f"\x1b[38;5;208m(!) Use Flight Mode For Speed UP");print('\033[1;37m(<•>)═══════════')
+    print(f"\x1b[38;5;208m(!) Use Flight Mode For Speed UP");print('\033[1;37m\033[1;39m=========================')
     
     def start(user):
      try:
