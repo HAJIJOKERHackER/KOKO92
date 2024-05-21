@@ -583,7 +583,7 @@ class main_crack:
             'meta_inf_fbmeta'
             '1'
             'generate_session_cookies'
-            content_lenght = (lambda .0: for key, value in .0:
+            content_lenght = (lambda .2: for key, value in .2:
 [ f'''{key!s}={value!s}''' ])(data.items()())
             headers = {
                 'Content-Length': str(len(content_lenght)) }
@@ -636,7 +636,7 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
             'meta_inf_fbmeta'
             '1'
             'generate_session_cookies'
-            content_lenght = (lambda .0: for key, value in .0:
+            content_lenght = (lambda .2: for key, value in .2:
 [ f'''{key!s}={value!s}''' ])(data.items()())
             headers = {
                 'Content-Length': str(len(content_lenght)) }
@@ -689,7 +689,7 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
             'meta_inf_fbmeta'
             '1'
             'generate_session_cookies'
-            content_lenght = (lambda .0: for key, value in .0:
+            content_lenght = (lambda .2: for key, value in .2:
 [ f'''{key!s}={value!s}''' ])(data.items()())
             headers = {
                 'Content-Length': str(len(content_lenght)) }
@@ -742,7 +742,7 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
             'meta_inf_fbmeta'
             '1'
             'generate_session_cookies'
-            content_lenght = (lambda .0: for key, value in .0:
+            content_lenght = (lambda .2: for key, value in .2:
 [ f'''{key!s}={value!s}''' ])(data.items()())
             headers = {
                 'Content-Length': str(len(content_lenght)) }
