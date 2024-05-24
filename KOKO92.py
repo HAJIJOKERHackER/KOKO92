@@ -1,4 +1,4 @@
-#FUCK BY JOKER: @Theyhates_joker oN: @JokerToolzz 🔥❄. 
+#FUCK BY JOKER: @shahi_joker oN: @JokerKhanoo 🔥❄. 
 
 
 import lzma
@@ -236,7 +236,7 @@ logo=("""
 \033[1;32m╚════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝                                      
  ┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
  ┃Dec By : SHAHI JOKER     ┃𝐒𝐓𝐀𝐓𝐔𝐒  : FREE   ┃
- ┃𝐅𝐁 𝐈𝐃  : JOKER KHANO    ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 2.5    ┃
+ ┃𝐅𝐁 𝐈𝐃  : JOKER KHANO    ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 2.8    ┃
  ┣━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
  ┃TG : MR JOKER  ┃ 𝐓𝐎𝐎𝐋 : FILE            |
  ┗━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
@@ -255,11 +255,11 @@ pcp=[]
 id=[]
 def menu():
                         clear()                	
-                        print("[1] File cloning")
-                        print("[2] Create file")
-                        print("[3] Random cloning")
-                        print("[4] Random Gmail cloning")
-                        print("[5] Join WhatsApp group")
+                        print("[1] FILE CLONING")
+                        print("[2] CREATE FILE")
+                        print("[3] RANDOM CLONING")
+                        print("[4] RANDOM GMAIL CLONING")
+                        print("[5] JOIN WHATSAPP GROUP")
                         print("[0] Exit")
                         linex()
                         axs=input('\033[1;32m[✓] \033[1;32mChoose option: ')
@@ -298,7 +298,7 @@ def za():
         linex()
         input(" press enter to send key")
         linex();print(" You are not paid user ");linex()
-        os.system("xdg-open https://wa.me/+8801731259842")
+        os.system("xdg-open https://wa.me/+93707266012")
 
 def file():
                           #      verf()	
@@ -1098,4 +1098,4 @@ except requests.exceptions.ConnectionError:
 	exit()
 except:exit()
 
-#FUCK BY JOKER: @Theyhates_joker oN: @JokerToolzz 🔥❄. 
+#FUCK BY JOKER: @shahi_joker oN: @JokerKhanoo 🔥❄. 
