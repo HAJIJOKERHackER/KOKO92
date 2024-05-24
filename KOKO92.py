@@ -226,8 +226,7 @@ def iAmMethod2Ua():
     return ua        
     ua = 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36]","Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36;]","Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36;] '+END
     return ua
-logo=("""
-
+logo=(f"""
 \033[1;31m    ____   ____   ___    __ __________ ________    
 \033[1;31m    `MM'  6MMMMb  `MM    d'  `MMMMMMMMM `MMMMMMMb.  
 \033[1;39m      MM  8P    Y8  MM   d'   MM      \  MM    `Mb  
